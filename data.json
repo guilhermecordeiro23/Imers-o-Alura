@@ -1,0 +1,32 @@
+[
+{
+    "nome":"O que é Html?",
+    "descricao":"HTML (HyperText Markup Language) é a linguagem padrão usada para criar páginas da web. Ela estrutura o conteúdo na internet, permitindo a inclusão de textos, imagens, links e outros elementos.",
+    "link":"https://www.w3schools.com/html/"
+},
+{
+    "nome":"O que é CSS?",
+    "descricao":"CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de um documento escrito em HTML ou XML. Ele controla o layout, cores, fontes e outros aspectos visuais das páginas da web.",
+    "link":"https://www.w3schools.com/css/"
+},
+{
+    "nome":"O que é JavaScript?",
+    "descricao":"JavaScript é uma linguagem de programação que permite criar conteúdo dinâmico e interativo em páginas da web. Ele pode ser usado para validar formulários, criar animações, manipular elementos HTML e muito mais.",
+    "link":"https://www.w3schools.com/js/"
+},
+{
+    "nome":"O que é React?",
+    "descricao":"React é uma biblioteca JavaScript de código aberto para construir interfaces de usuário (UIs). É mantido pelo Facebook e por uma comunidade de desenvolvedores. React pode ser usado como base no desenvolvimento de aplicações de página única ou móveis.",
+    "link":"https://react.dev/"
+},
+{
+    "nome":"O que é Node.js?",
+    "descricao":"Node.js é um ambiente de execução JavaScript que permite executar código JavaScript no lado do servidor. Ele é construído sobre o motor V8 do Chrome e é usado para criar aplicações de rede escaláveis e rápidas.",
+    "link":"https://nodejs.org/"
+},
+{
+    "nome":"O que é Git?",
+    "descricao":"Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência. Ele permite que múltiplos desenvolvedores trabalhem juntos em um projeto.",
+    "link":"https://git-scm.com/"
+}
+]
