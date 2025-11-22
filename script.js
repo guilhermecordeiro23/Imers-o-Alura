@@ -8,13 +8,13 @@ async function iniciarBusca() {
 }
 function renderizarCards(dados) {
     for (let dado of dados) {
-        let article = document.createElement('article');
+        let article = document.createElement("article");
         article.classList.add('card');
         article.innerHTML = `
         <h2>${dado.nome}</h2>
         <p>${dado.descricao}</p>
         <a href="${dado.link}" target="_blank">Saiba mais</a>
-        `
+        `;
         cardContainer.appendChild(article);
     }
 }
