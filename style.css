@@ -108,10 +108,29 @@ article {
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
-article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+.card {
+    display: flex; /* Organiza os itens do card (imagem e texto) em linha */
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 1.5rem; /* Espaçamento entre a imagem e o conteúdo de texto */
     cursor: pointer; /* Muda o cursor para uma mão */
+    background-color: #282a2d; /* Cor de fundo para o card */
+    background-image: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Gradiente sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); /* Sombra para efeito de profundidade */
+    padding: 1.5rem; /* Espaçamento interno */
+    border-bottom: none; /* Remove a borda inferior do estilo 'article' */
+    transition: transform 0.2s ease-in-out; /* Adiciona transição para o hover */
 }
+
+.card:hover {
+    transform: scale(1.02); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.card img {
+    width: 50px; /* Define uma largura fixa para a imagem */
+    height: 50px; /* Define uma altura fixa para a imagem */
+}
+
 
 article h2 {
     margin-top: 0; /* Remove a margem superior */
@@ -202,7 +221,7 @@ article a:hover {
     }
 
     article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse */
+        transform: none; /* Remove o efeito de escala ao passar o mouse em telas menores */
     }
 }
 
